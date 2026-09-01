@@ -18,3 +18,7 @@ get_prop(hal_sensors_default, vendor_adsprpc_prop)
 # Access to Touchpanel nodes
 allow hal_sensors_default sysfs_touchpanel:dir search;
 allow hal_sensors_default sysfs_touchpanel:file rw_file_perms;
+
+# Allow Access for custom touch nodes 
+allow hal_lineage_touch_default sysfs_touchpanel:file rw_file_perms;
+allow hal_lineage_touch_default sysfs_touchpanel:dir r_dir_perms;
