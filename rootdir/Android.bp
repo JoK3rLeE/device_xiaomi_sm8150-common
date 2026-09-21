@@ -77,8 +77,8 @@ prebuilt_etc {
 }
 
 prebuilt_etc {
-    name: "init.raphael.android_auto.rc",
-    src: "etc/init.raphael.android_auto.rc",
+    name: "init.cepheus.android_auto.rc",
+    src: "etc/init.cepheus.android_auto.rc",
     sub_dir: "init",
     vendor: true,
 }

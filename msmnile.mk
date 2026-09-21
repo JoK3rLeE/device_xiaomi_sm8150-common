@@ -360,7 +360,7 @@ PRODUCT_PACKAGES += \
     init.qcom.power.rc \
     init.qcom.rc \
     init.qcom.usb.rc \
-    init.raphael.android_auto.rc \
+    init.cepheus.android_auto.rc \
     init.recovery.qcom.rc \
     init.target.rc \
     init.xiaomi.rc \
