@@ -238,6 +238,18 @@ on boot
     chmod 0660 /sys/devices/platform/goodix_ts.0/single_tap_pressed
     chown system system /sys/devices/platform/goodix_ts.0/single_tap_enabled
     chmod 0660 /sys/devices/platform/goodix_ts.0/single_tap_enabled
+    chown system system /sys/devices/platform/soc/c80000.i2c/i2c-2/2-0049/udfps_pressed
+    chmod 0660 /sys/devices/platform/soc/c80000.i2c/i2c-2/2-0049/udfps_pressed
+    chown system system /sys/devices/platform/soc/c80000.i2c/i2c-2/2-0049/udfps_enabled
+    chmod 0660 /sys/devices/platform/soc/c80000.i2c/i2c-2/2-0049/udfps_enabled
+    chown system system /sys/devices/platform/soc/c80000.i2c/i2c-2/2-0049/double_tap_pressed
+    chmod 0660 /sys/devices/platform/soc/c80000.i2c/i2c-2/2-0049/double_tap_pressed
+    chown system system /sys/devices/platform/soc/c80000.i2c/i2c-2/2-0049/double_tap_enabled
+    chmod 0660 /sys/devices/platform/soc/c80000.i2c/i2c-2/2-0049/double_tap_enabled
+    chown system system /sys/devices/platform/soc/c80000.i2c/i2c-2/2-0049/single_tap_pressed
+    chmod 0660 /sys/devices/platform/soc/c80000.i2c/i2c-2/2-0049/single_tap_pressed
+    chown system system /sys/devices/platform/soc/c80000.i2c/i2c-2/2-0049/single_tap_enabled
+    chmod 0660 /sys/devices/platform/soc/c80000.i2c/i2c-2/2-0049/single_tap_enabled
 
 # msm specific files that need to be created on /data
 on post-fs-data

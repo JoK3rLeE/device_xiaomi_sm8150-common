@@ -66,6 +66,12 @@ genfscon sysfs /devices/platform/goodix_ts.0/single_tap_pressed                 
 genfscon sysfs /devices/platform/goodix_ts.0/single_tap_enabled                                     u:object_r:vendor_sysfs_sensors:s0
 genfscon sysfs /devices/platform/goodix_ts.0/double_tap_pressed                                     u:object_r:vendor_sysfs_sensors:s0
 genfscon sysfs /devices/platform/goodix_ts.0/double_tap_enabled                                     u:object_r:vendor_sysfs_sensors:s0
+genfscon sysfs /devices/platform/soc/c80000.i2c/i2c-2/2-0049/udfps_pressed                          u:object_r:vendor_sysfs_sensors:s0
+genfscon sysfs /devices/platform/soc/c80000.i2c/i2c-2/2-0049/udfps_enabled                          u:object_r:vendor_sysfs_sensors:s0
+genfscon sysfs /devices/platform/soc/c80000.i2c/i2c-2/2-0049/single_tap_pressed                     u:object_r:vendor_sysfs_sensors:s0
+genfscon sysfs /devices/platform/soc/c80000.i2c/i2c-2/2-0049/single_tap_enabled                     u:object_r:vendor_sysfs_sensors:s0
+genfscon sysfs /devices/platform/soc/c80000.i2c/i2c-2/2-0049/double_tap_pressed                     u:object_r:vendor_sysfs_sensors:s0
+genfscon sysfs /devices/platform/soc/c80000.i2c/i2c-2/2-0049/double_tap_enabled                     u:object_r:vendor_sysfs_sensors:s0
 
 # Torch
 genfscon sysfs /devices/platform/soc/c440000.qcom,spmi/spmi-0/spmi0-05/c440000.qcom,spmi:qcom,pm8150l@5:qcom,leds@d300/leds/flashlight/brightness          u:object_r:sysfs_leds:s0
@@ -90,6 +96,7 @@ genfscon sysfs /devices/platform/us_prox.0/iio:device                           
 # Wakeup source stats
 genfscon sysfs /devices/0306_02.01.00/wakeup                                                                                                       u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/goodix_ts.0/wakeup                                                                                                u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/soc/c80000.i2c/i2c-2/2-0049/wakeup										   u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/soc/171c0000.slim/tavil-slim-pgd/wakeup                                                                           u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/soc/17300000.qcom,lpass/wakeup                                                                                    u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/soc/188101c.qcom,spss/wakeup                                                                                      u:object_r:sysfs_wakeup:s0
