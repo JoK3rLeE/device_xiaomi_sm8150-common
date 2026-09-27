@@ -292,6 +292,9 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.se.omapi.uicc.xml:$(TARGET_COPY_OUT_ODM)/etc/permissions/sku_nfc/android.hardware.se.omapi.uicc.xml \
     frameworks/native/data/etc/com.android.nfc_extras.xml:$(TARGET_COPY_OUT_ODM)/etc/permissions/sku_nfc/com.android.nfc_extras.xml
 
+PRODUCT_VENDOR_PROPERTIES += \
+    ro.vendor.nfc.chip_type=sn100u
+
 # Overlays
 PRODUCT_PACKAGES += \
     CarrierConfigOverlayCommon \
