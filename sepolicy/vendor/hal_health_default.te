@@ -1,3 +1,6 @@
 # Access to sysfs wakeup files
 allow hal_health_default sysfs_wakeup:dir r_dir_perms;
 allow hal_health_default sysfs_wakeup:file r_file_perms;
+
+# Health HAL reads sysfs power-supply metadata.
+allow hal_health_default sysfs:file r_file_perms;
