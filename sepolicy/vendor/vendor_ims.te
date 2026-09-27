@@ -1,0 +1,2 @@
+# imsdatadaemon uses the Qualcomm DIAG device.
+allow vendor_ims vendor_diag_device:chr_file rw_file_perms;
