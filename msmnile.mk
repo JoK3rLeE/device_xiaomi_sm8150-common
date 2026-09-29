@@ -279,8 +279,8 @@ PRODUCT_PACKAGES += \
 
 # NFC
 PRODUCT_PACKAGES += \
-    android.hardware.nfc@1.2-service \
-    android.hardware.secure_element@1.0-service \
+    android.hardware.nfc2-service.nxp \
+    android.hardware.secure_element-service.nxp \
     com.android.nfc_extras \
     Tag
 
@@ -291,9 +291,6 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.nfc.xml:$(TARGET_COPY_OUT_ODM)/etc/permissions/sku_nfc/android.hardware.nfc.xml \
     frameworks/native/data/etc/android.hardware.se.omapi.uicc.xml:$(TARGET_COPY_OUT_ODM)/etc/permissions/sku_nfc/android.hardware.se.omapi.uicc.xml \
     frameworks/native/data/etc/com.android.nfc_extras.xml:$(TARGET_COPY_OUT_ODM)/etc/permissions/sku_nfc/com.android.nfc_extras.xml
-
-PRODUCT_VENDOR_PROPERTIES += \
-    ro.vendor.nfc.chip_type=sn100u
 
 # Overlays
 PRODUCT_PACKAGES += \

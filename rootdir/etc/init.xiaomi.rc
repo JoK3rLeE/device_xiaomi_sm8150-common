@@ -60,7 +60,7 @@ on post-fs-data
     mkdir /mnt/vendor/persist/fpc 0770 system system
 
 # NFC
-service vendor.nfc_hal_service /vendor/bin/hw/android.hardware.nfc@1.2-service
+service vendor.nfc_hal_service /vendor/bin/hw/android.hardware.nfc2-service.nxp
     override
     class hal
     user nfc
