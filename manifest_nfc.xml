@@ -4,15 +4,15 @@
         <version>2</version>
         <fqname>INfc/default</fqname>
     </hal>
+
     <hal format="aidl">
         <name>android.hardware.secure_element</name>
         <version>1</version>
         <fqname>ISecureElement/eSE1</fqname>
-</hal>
     </hal>
+
     <hal format="aidl">
         <name>vendor.nxp.nxpnfc_aidl</name>
         <fqname>INxpNfc/default</fqname>
     </hal>
-
 </manifest>
