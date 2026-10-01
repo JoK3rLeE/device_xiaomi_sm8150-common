@@ -1,3 +1,0 @@
-# Allow the secure element HAL to register and find the NXP eSE service.
-allow hal_secure_element_default hal_nxpese_hwservice:hwservice_manager add;
-allow hal_secure_element_default hal_nxpese_hwservice:hwservice_manager find;

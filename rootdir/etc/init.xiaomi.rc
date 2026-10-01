@@ -58,14 +58,3 @@ on post-fs-data
     mkdir /data/vendor/fortsense 0770 system system
     mkdir /mnt/vendor/persist/goodix 0770 system system
     mkdir /mnt/vendor/persist/fpc 0770 system system
-
-# NFC
-service vendor.nfc_hal_service /vendor/bin/hw/android.hardware.nfc2-service.nxp
-    override
-    class hal
-    user nfc
-    group nfc
-    disabled
-
-on boot && property:ro.boot.product.hardware.sku=nfc
-    enable vendor.nfc_hal_service
