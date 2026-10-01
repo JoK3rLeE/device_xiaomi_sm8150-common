@@ -1,2 +1,0 @@
-# gpuservice probes the GPU work BPF map.
-allow gpuservice fs_bpf:file getattr;

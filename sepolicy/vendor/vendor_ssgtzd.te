@@ -1,2 +1,0 @@
-# ssgtzd adjusts the vendor data directory metadata.
-allow vendor_ssgtzd vendor_data_file:dir setattr;
