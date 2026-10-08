@@ -238,8 +238,7 @@ PRODUCT_PACKAGES += \
     sm8150-tavil-snd-card_Button_Jack.kl \
     uinput-fortsense.kl \
     uinput-fpc.kl \
-    uinput-goodix.kl \
-    vendor.lineage.touch-service.xiaomi
+    uinput-goodix.kl
 
 PRODUCT_PACKAGES += \
     uinput-fortsense.idc \
